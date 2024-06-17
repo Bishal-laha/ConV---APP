@@ -1,0 +1,22 @@
+.clip-circle{
+    clip-path: inset(0 100% 0 100% round 0% 20% 30% 0%);
+}
+.clip-square{
+    clip-path: inset(0 100% 0 100% round 0% 0% 0% 0%);
+}
+.clip-text{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.bg_grad{
+    background-image: linear-gradient(43deg, rgba(222,236,249,1) 52%, rgba(92,247,255,1) 93%);
+}
+.bg_btn:hover{
+    /* background-image: linear-gradient(43deg, rgba(255,245,155,1) 33%, rgba(255,124,69,1) 84%);  */
+    background-image: linear-gradient(43deg, rgba(230,155,255,1) 33%, rgba(136,69,255,1) 84%);
+}
+.bg_btn{
+    background-image: linear-gradient(43deg, rgba(184,155,255,1) 33%, rgba(136,69,255,1) 84%); 
+}
+.bg_btn:disabled{
+    background-image: linear-gradient(43deg, rgba(138,138,138,1) 33%, rgba(83,83,83,1) 85%); 
+}
