@@ -1,6 +1,6 @@
 import ConvertApi from 'convertapi-js';
 import { useDispatch, useSelector } from 'react-redux';
-import { convertBlob } from '../utils/Features';
+import { convertBlobForFile } from '../utils/Features';
 import { useEffect, useState } from 'react';
 import { clearFileMetaData, clearFileUrl, setIsFileUrl } from '../store/slice/fileSlice';
 import toast from "react-hot-toast";
@@ -39,7 +39,7 @@ function FileConverter() {
             if (fileUrl) {
                 if (userSelectedFormat) {
                     const toastId = toast.loading("Conversion Is Processing....");
-                    const blob = convertBlob(fileUrl);
+                    const blob = convertBlobForFile(fileUrl);
                     const file = new File([blob], fileMetaData[0].fileName, { type: blob.type });
                     let convertApi = ConvertApi.auth(import.meta.env.VITE_CONVERT_API_SECRET);
                     let params = convertApi.createParams();
