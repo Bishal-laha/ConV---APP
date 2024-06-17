@@ -1,3 +1,1 @@
-.env.sample
-
-VITE_CONVERT_API_SECRET
+Please Provide Feedback On bishalnemo@gmail.com....Thank You ☺️☺️
