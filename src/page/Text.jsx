@@ -5,7 +5,7 @@ function Text() {
     const isMobileScreen = useMediaQuery({ maxWidth: 600 });
 
     return (
-        <div className={` ${isMobileScreen ? "pt-[25%] mx-auto w-[90%]" : "h-[100vh] pt-[12%] w-full"} flex items-center justify-center`}>
+        <div className={` ${isMobileScreen ? "pt-[50%] mx-auto w-[90%]" : "h-[100vh] pt-[12%] w-full"} flex items-center justify-center`}>
             <Layout />
         </div>
     )
