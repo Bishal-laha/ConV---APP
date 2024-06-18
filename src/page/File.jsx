@@ -12,7 +12,7 @@ function File() {
 
     return (
         <motion.div
-            className={`bg-[#deecf9] rounded-full shadow-2xl  ${isMobileScreen ? "px-1 w-[95%]" : "w-[90%] min-h-[70%]"} mx-auto mt-[15%]`}
+            className={`bg-[#deecf9] rounded-full shadow-2xl min-h-[70%] ${isMobileScreen ? "px-1 w-[95%] mt-[30%]" : "w-[90%] mt-[15%]"} mx-auto`}
             animate={{ scale: [0, 1], borderRadius: ["10%", "0%"] }}
             transition={{ duration: 1, ease: "easeInOut", times: [0, 1] }}
         >
