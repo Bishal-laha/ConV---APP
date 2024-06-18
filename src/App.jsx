@@ -17,7 +17,7 @@ function App() {
       <div className="grid grid-cols-3">
         {isMobileScreen ? (<AnimatedBoxMobile />) : (<AnimatedBox />)}
         <div className={`${isMobileScreen ? "col-span-3" : "col-span-2"} w-full h-screen mx-auto relative`}>
-          <div className={` bg-[#343434] shadow-2xl absolute top-0  ${isMobileScreen ? "px-[25.7%] py-[5%] left-0" : "clip-text px-[20%] left-[40%] mt-5"} py-2`}>
+          <div className={` bg-[#343434] shadow-2xl absolute top-0  ${isMobileScreen ? "px-[30.75%] py-[5%] left-0" : "clip-text px-[20%] left-[40%] mt-5"} py-2`}>
             <h1 className="font-bold text-6xl bg-gradient-to-r from-[#ffa974] to-[#ff1cb0] bg-clip-text text-transparent text-center">ConV</h1>
           </div>
           {isMobileScreen && <IconButton onClick={() => dispatch(setIsMenu(true))} className="absolute top-2 left-1 duration-300 hover:duration-300 hover:rotate-90">
