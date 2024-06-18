@@ -10,7 +10,7 @@ const AnimatedBox = () => {
     const [animationComplete, setAnimationComplete] = useState(false);
 
     return (
-        <motion.div className="bg-blue-400 w-full clip-circle"
+        <motion.div className="bg-blue-400 w-full"
             animate={{ scale: [1, 2, 2, 1, 1], rotate: [0, 0, 180, 180, 0], borderRadius: ["0%", "0%", "50%", "50%", "0%"] }}
             transition={{
                 duration: 2, ease: "easeInOut", times: [0, 0.2, 0.5, 0.8, 1],
