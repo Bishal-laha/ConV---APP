@@ -28,7 +28,7 @@ const AnimatedBoxMobile = () => {
                             <path strokeLinecap="round" strokeLinejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                         </svg>
                     </IconButton>
-                    <h1 className="font-bold w-full text-[3rem] mt-5 bg-gradient-to-r from-[#ffa974] to-[#ff1cb0] bg-clip-text text-transparent text-center">Welcome To <span>ConV</span></h1>
+                    <h1 className="font-bold px-2 w-full text-[3rem] mt-5 bg-gradient-to-r from-[#ffa974] to-[#ff1cb0] bg-clip-text text-transparent text-center">Welcome To <span>ConV</span></h1>
                     <div className="w-[90%] mt-[30%] mx-auto cursor-pointer">
                         <div className="flex justify-between items-center gap-[3rem] bg-white rounded-xl px-2 py-6 shadow-2xl hover:scale-105 hover:duration-300 duration-300 " onClick={() => {
                             if (isFileComp) {
